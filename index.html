@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Thierno Dieng</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="Portfolio.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand fw-bold text-primary d-flex align-items-center" href="#">
+        <img src="logo.png" alt="Logo" width="100" class="me-2">
+      </a>
+
+      <!-- Menu Burger -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#apropos">A propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projets">Projets</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services / Compétences</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services / Compétences</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item">
+            <a href="file:///C:/Users/SIMPLON/Desktop/Portfolio%20Thierno%20Dieng/mon%20cv.pdf" class="btn btn-primary ms-3">Télécharger mon CV</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <header id="accueil" class="hero d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Texte -->
+        <div class="col-md-7 text-white">
+          <h1 class="fw-bold mb-3">Bonjour, je m’appelle Thierno Dieng,<br> "Passionné par les technologies numériques et la communication digitale".</h1>
+          <ul>
+            <li>La stratégie digitale et le déploiement de solutions adaptées aux besoins des entreprises,</li>
+            <li>La création et gestion de contenus web (sites, réseaux sociaux, campagnes digitales),</li>
+            <li>L’analyse de données et optimisation de performances (SEO, marketing digital, suivi des indicateurs).</li>
+          </ul>
+          <div class="mt-4">
+            <a href="#projets" class="btn btn-light me-2">Voir mes projets</a>
+            <a href="#contact" class="btn btn-outline-light">Me contacter <i class="bi bi-envelope-fill"></i></a>
+          </div>
+        </div>
+
+        <!-- Image -->
+        <div class="col-md-5 text-center">
+
+            <img src="thier.png" alt="Thierno Dieng" class="img-fluid rounded-circle">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Icons Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+   <!-- ===== A PROPOS ===== -->
+  <section id="apropos" class="py-5">
+    <div class="container">
+      <!-- Texte d’intro -->
+      <div class="row mb-5">
+        <div class="col text-center"font size >
+          <p class="lead">
+            Mon objectif est d’accompagner les entreprises et projets vers une meilleure visibilité en ligne, 
+            une expérience utilisateur optimisée, et une croissance durable grâce au digital.
+          </p>
+        </div>
+      </div>
+
+      <!-- Titre + description -->
+      <div class="row align-items-center">
+        <div class="col-md-8">
+          <h2 class="fw-bold text-primary mb-4 text-center text-md-start">A propos</h2>
+          <p>
+            Je m’appelle <b>Thierno Dieng</b>, Référent Digital passionné par l’univers du numérique et de l’innovation.
+          </p>
+          <p>
+            Avec plus de 4 ans d’expérience, j’ai eu l’opportunité de concevoir et de piloter plusieurs projets digitaux, 
+            allant de la création de sites web à la mise en place de stratégies marketing en ligne, en passant par 
+            la gestion de communautés et l’optimisation des performances digitales.
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="bi bi-info-circle display-1 text-primary"></i>
+        </div>
+      </div>
+
+      <!-- Statistiques -->
+      <div class="row text-center mt-5 g-4">
+        <div class="col-6 col-md">
+          <h5 class="text-warning">+6</h5>
+          <p class="fw-semibold text-primary">Projets réalisés</p>
+        </div>
+        <div class="col-6 col-md">
+          <h5 class="text-warning">+4</h5>
+          <p class="fw-semibold text-primary">Années d’expérience</p>
+        </div>
+        <div class="col-6 col-md">
+          <h5 class="text-warning">+3 000</h5>
+          <p class="fw-semibold text-primary">Personnes atteintes</p>
+        </div>
+        <div class="col-6 col-md">
+          <h5 class="text-warning">+10</h5>
+          <p class="fw-semibold text-primary">Outils maîtrisés</p>
+        </div>
+        <div class="col-6 col-md">
+          <h5 class="text-warning">+2</h5>
+          <p class="fw-semibold text-primary">Initiatives cofondées</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- ===== PROJETS ===== -->
+<section id="projets" class="py-5 bg-light">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col text-center">
+        <h2 class="fw-bold text-primary mb-4">Mes projets et Réalisations</h2>
+        <p class="lead">Découvrez quelques-unes de mes réalisations majeures en marketing digital, gestion de contenu et accompagnement numérique.</p>
+      </div>
+    </div>
+    <div class="row g-5">
+
+      <!-- Projet 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="bb.PNG" class="card-img-top" alt="stratégie VisiPrint">
+          <div class="card-body">
+            <h5 class="card-title"> strategie VisiPrint </h5>
+            <p class="card-text">Stratégie marketing digitale pour une plateforme d’impression et personnalisation B2B/B2C : élaboration de la stratégie, création de contenu et optimisation de la présence en ligne.</p>
+          </div>
+          
+        </div>
+      </div>
+
+      <!-- Projet 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="chaine youtube.PNG" class="card-img-top" alt="chaine Youtube">
+          <div class="card-body">
+            <h5 class="card-title"> Chaîne YouTube</h5>
+            <p class="card-text">Création de contenus attractifs pour capter et fidéliser une audience jeune : scénarisation, montage vidéo, optimisation SEO et promotion sur les réseaux sociaux.</p>
+          </div>
+          
+        </div>
+      </div>
+
+      <!-- Projet 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="site.PNG" class="card-img-top" alt="site">
+          <div class="card-body">
+            <h5 class="card-title"> site visiprint </h5>
+            <p class="card-text">Valorisation d'une offre de personnalisation (produits, formats, devis en ligne) et gestion du projet e-commerce de bout en bout : UX, développement de modules et communication digitale.</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===== AFFICHES ===== -->
+<section id="affiches" class="py-5 bg-white">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col text-center">
+        <h2 class="fw-bold text-primary mb-4">Affiches</h2>
+        <p class="lead">Exemples de visuels réalisés pour des clients associatifs, éducatifs et commerciaux.</p>
+      </div>
+    </div>
+    <div class="row g-4 justify-content-center">
+
+      <!-- Affiche 1 -->
+      <div class="col-6 col-md-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="miss.png" class="card-img-top" alt="Affiche Concours Candidates">
+        </div>
+      </div>
+
+      <!-- Affiche 2 -->
+      <div class="col-6 col-md-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="be culture.png" class="card-img-top" alt="Affiche Be Culture Association">
+        </div>
+      </div>
+
+      <!-- Affiche 3 -->
+      <div class="col-6 col-md-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="eleve.png" class="card-img-top" alt="Affiche Synthèse de Français">
+        </div>
+      </div>
+       <!-- Affiche 4 -->
+      <div class="col-6 col-md-3">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="af.PNG" class="card-img-top" alt="Affiche Synthèse de Français">
+        </div>
+      </div>
+     <section id="services-details" class="py-5 bg-white">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col text-center">
+        <h2 class="fw-bold text-primary mb-4">Détails des Services</h2>
+        <p class="lead">Présentation précise des différents services que je propose, adaptés aux besoins de mes clients.</p>
+      </div>
+    </div>
+
+    <!-- Service 1 -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-5 text-center">
+        <img src="lg.JPG" alt="Logo salon coiffure" class="img-fluid rounded shadow-sm zoom-on-hover-detail">
+      </div>
+      <div class="col-md-7">
+        <h3>Création de logos</h3>
+        <p>Conception personnalisée de logos professionnels adaptés à l’identité visuelle de votre entreprise, avec un rendu moderne et impactant.</p>
+      </div>
+    </div>
+
+    <!-- Service 2 -->
+    <div class="row align-items-center mb-5 flex-md-row-reverse">
+      <div class="col-md-5 text-center">
+        <img src="mt.JPG" alt="Montre personnalisée" class="img-fluid rounded shadow-sm zoom-on-hover-detail">
+      </div>
+      <div class="col-md-7">
+        <h3>Personnalisation d’objets</h3>
+        <p>Création graphique et impression personnalisée sur des objets variés comme montres, coques, vêtements, offrant un impact marketing différenciant.</p>
+      </div>
+    </div>
+
+    <!-- Service 3 -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-5 text-center">
+        <img src="pr.JPG" alt="Coque personnalisée" class="img-fluid rounded shadow-sm zoom-on-hover-detail">
+      </div>
+      <div class="col-md-7">
+        <h3>Supports numériques</h3>
+        <p>Design et mise en page pour supports web (bannières, réseaux sociaux, campagnes digitales) afin d’optimiser la visibilité en ligne.</p>
+      </div>
+    </div>
+
+    <!-- Service 4 -->
+    <div class="row align-items-center mb-5 flex-md-row-reverse">
+      <div class="col-md-5 text-center">
+        <img src="tb.PNG" alt="Tableau mural" class="img-fluid rounded shadow-sm zoom-on-hover-detail">
+      </div>
+      <div class="col-md-7">
+        <h3>Supports imprimés</h3>
+        <p>Création d’affiches, flyers, tableaux et autres supports imprimés pour une communication percutante hors ligne.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMPETENCES : 6 items (icônes + titre + petit texte) -->
+    <section id="competences" class="py-5 bg-light">
+      <div class="container text-center">
+        <h2>Mes compétences</h2>
+        <p class="text-muted mb-4">Ce que je propose pour vos projets</p>
+
+        <div class="row g-3">
+          <!-- ITEM 1 -->
+          <div class="col-sm-6 col-md-4">
+            <div class="skill box p-3 h-100">
+              <i class="fa-solid fa-pencil-ruler icon"></i>
+              <h5>UX / UI</h5>
+              <p>Wireframes, prototypes et tests utilisateurs.</p>
+            </div>
+          </div>
+
+          <!-- ITEM 2 -->
+          <div class="col-sm-6 col-md-4">
+            <div class="skill box p-3 h-100">
+              <i class="fa-solid fa-chart-line icon"></i>
+              <h5>Stratégie digitale</h5>
+              <p>Audit, plan d'action et suivi des indicateurs.</p>
+            </div>
+          </div>
+
+          <!-- ITEM 3 -->
+          <div class="col-sm-6 col-md-4">
+            <div class="skill box p-3 h-100">
+              <i class="fa-solid fa-diagram-project icon"></i>
+              <h5>Gestion de projet</h5>
+              <p>Planification et coordination d'équipes.</p>
+            </div>
+          </div>
+<!-- ITEM 4 -->
+          <div class="col-sm-6 col-md-4">
+            <div class="skill box p-3 h-100">
+              <i class="fa-solid fa-paint-brush icon"></i>
+              <h5>Design graphique</h5>
+              <p>Logos, chartes et supports print & web.</p>
+            </div>
+          </div>
+
+          <!-- ITEM 5 -->
+          <div class="col-sm-6 col-md-4">
+            <div class="skill box p-3 h-100">
+              <i class="fa-solid fa-laptop-code icon"></i>
+              <h5>Sites web</h5>
+              <p>Sites responsives, WordPress et CMS.</p>
+            </div>
+          </div>
+
+          <!-- ITEM 6 -->
+          <div class="col-sm-6 col-md-4">
+            <div class="skill box p-3 h-100">
+              <i class="fa-solid fa-bullhorn icon"></i>
+              <h5>Marketing digital</h5>
+              <p>Réseaux sociaux, SEO et campagnes.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+</section>
+<section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <h2 class="fw-bold text-primary">contact</h2>
+      </div>
+    </div>
+    <div class="row g-4 align-items-center">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="nom" class="form-label fw-semibold">NOM</label>
+            <input type="text" class="form-control" id="nom" placeholder="Prénom et nom">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label fw-semibold">E-mail</label>
+            <input type="email" class="form-control" id="email" placeholder="nom@exemple.com">
+          </div>
+          <div class="mb-3">
+            <label for="description" class="form-label fw-semibold">Description</label>
+            <textarea class="form-control" id="description" rows="5" placeholder="Écrire un message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+      </div>
+
+      <div class="col-md-6 d-flex justify-content-center align-items-center">
+        <div class="d-flex align-items-center">
+          <div class="border-start border-primary border-4 pe-4 me-4" style="height: 200px;"></div>
+          <div>
+            <ul class="list-unstyled mb-4 text-start">
+              <li>thiernodieng1994@gmail.com</li>
+              <li> <center> 784549263 </center></li>
+            <ul>
+              <br>
+              <br>
+              <br>
+
+  <div class="social-icons d-flex gap-3">
+    <!-- WhatsApp -->
+    <a href="https://wa.me/221771234567" target="_blank" class="btn btn-outline-primary btn-social">
+      <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/jeengbusiness/" target="_blank" class="btn btn-outline-primary btn-social">
+      <i class="bi bi-instagram"></i>
+    </a>
+
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/profile.php?id=100080149150009" target="_blank" class="btn btn-outline-primary btn-social">
+      <i class="bi bi-facebook"></i>
+    </a>
+<!-- TikTok -->
+    <a href="https://www.tiktok.com/@jeengbusiness" target="_blank" class="btn btn-outline-primary btn-social">
+      <i class="bi bi-tiktok"></i>
+    </a>
+  </div>
+</ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+<footer class="bg-primary text-white text-center py-3 mt-auto">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Thierno Dieng. Tous droits réservés.</p>
+  </div>
+</footer>
+</html>
