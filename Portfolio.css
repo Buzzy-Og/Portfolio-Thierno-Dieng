@@ -1,0 +1,200 @@
+/* Couleur principale */
+:root {
+  --primary-color: #0067A7;
+}
+
+/* HERO */
+.hero {
+  background-color: var(--primary-color);
+  min-height: 100vh;
+  padding-top: 80px; /* compense la navbar fixed */
+}
+
+.hero h1 {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.hero ul {
+  margin-top: 15px;
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* Image cercle */
+.circle-img img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border: 6px solid #fff;
+}
+
+/* Navbar */
+.nav-link {
+  color: #333333 !important;
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: var(--primary-color) !important;
+  
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.btn-primary:hover {
+  background-color: #00588e;
+  border-color: #00588e;
+}
+/* ===== A PROPOS ===== */
+#apropos p {
+  font-size: 1rem 24 ;
+  color: #333;
+}
+
+#apropos h2 {
+  font-size: 2rem;
+}
+
+#apropos .bi-info-circle {
+  font-size: 4rem;
+}
+
+/* Stats */
+#apropos h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #D9A07E ; /* Orange doux */
+}
+#apropos p.fw-semibold {
+  margin-top: 5px;
+  font-size: 0.95rem;
+}
+/* Couleur principale */
+:root {
+  --primary-color: #0067A7;
+}
+
+/* HERO */
+.hero {
+  background-color: var(--primary-color);
+  min-height: 100vh;
+  padding-top: 80px; /* compense la navbar fixed */
+}
+
+.hero h1 {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.hero ul {
+  margin-top: 15px;
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* Image cercle */
+.circle-img img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border: 6px solid #fff;
+}
+
+/* Navbar */
+.nav-link {
+  color: #333 !important;
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.btn-primary:hover {
+  background-color: #00588e;
+  border-color: #00588e;
+}
+ <style>
+    /* Animation zoom sur images détaillées */
+    .zoom-on-hover-detail {
+      transition: transform 0.3s ease;
+    }
+    .zoom-on-hover-detail:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 103, 167, 0.25);
+      cursor: pointer;
+    }
+  </style>
+</section>
+
+
+/* COMPETENCES */
+.skill .icon{ font-size:28px; color:var(--primary); margin-bottom:8px; display:block; }
+.skill{
+  background-color: #000000;
+}
+/* Styles de base */
+.skill {
+  color: #ffffff;
+  background-color: #0067A7; 
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  cursor: pointer;
+}
+
+/* Icône */
+.skill .icon {
+  font-size: 28px;
+  color: var(--primary);
+  margin-bottom: 8px;
+  display: block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Effet hover */
+.skill:hover {
+  transform: translateY(-8px) scale(1.05);
+  background: linear-gradient(135deg, #A62416 , #ffffff);
+  box-shadow: 0 12px 24px rgba(255, 255, 255, 0.15);
+}
+
+/* L’icône réagit aussi */
+.skill:hover .icon {
+  transform: rotate(10deg) scale(1.2);
+  color: #0067A7;
+}
+
+/* Effet clic */
+.skill:active {
+  transform: scale(0.95);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* petits styles pour les cards projets */
+.card img{ height:200px; object-fit:cover; }
+
+
+/* Style normal */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+/* Quand on passe la souris */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Quand on clique (effet enfoncé) */
+.card:active {
+  transform: scale(0.95);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
